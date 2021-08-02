@@ -1,0 +1,50 @@
+#options{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#opciones{
+    margin: 0 4em;
+}
+#logo{
+    margin: 0 1.5em;
+    width: 8em;
+}
+.nav-itemS{
+    text-decoration: none;
+    border: .2em solid rgb(0, 182, 189);
+    border-radius: .3em;
+    transition: 1s;
+    width: auto;
+}
+.nav-itemS:hover{    
+    transition: .5s;
+    scale: 1.2;
+    box-shadow: .1em .1em .1em .1em rgb(85, 148, 151);
+
+}
+#contact{
+    color: rgb(0, 182, 189);
+}
+.nav-link{
+    display: flex;
+    transition: 1s;
+}
+.nav-link:hover{
+    transition: .5s;
+    scale: 1.2;
+}
+.nav-container{
+    position: fixed;
+    top: 0em;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand{
+    transition: 1s;
+}
+.navbar-brand:hover{
+    scale: 1.2;
+    transition: .5s;
+}
