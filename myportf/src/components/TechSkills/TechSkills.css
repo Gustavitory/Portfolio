@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 .TechSkills{
-    height: 35em;
+    height: 43em;
     margin-top: 2em;
+    background-color: #587ec4;
+    margin-top: 0;
 }
 .content-all{
     width: 75em;
@@ -26,6 +28,11 @@
     position: absolute;
     text-align: center;
     top: 25em;
+    transition:.5s;
+}
+.content-carousel figure:hover{
+    scale: 1.05;
+    transition:.5s;
 }
 .content-carousel figure:nth-child(1){
     transform: rotateY(0deg) translateZ(500px);
@@ -76,4 +83,7 @@
     width: fit-content;
     margin: auto;
     text-align: center;
+    padding-top: 3em;
+    color: white;
+    padding-top: 8em;
 }

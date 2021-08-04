@@ -12,8 +12,9 @@ const PresentationCard=()=>{
                 <p>  Soy de Maracay, Aragua, Venezuela. Inicié mi preparación en el mundo IT
                     motivado por el gran desafío que supone adentrarse en el, además de encontrar gusto
                     en poder crear cosas increíbles de la nada. Estoy capacitado para desarrollar tanto en 
-                    el back-end como en el front-end. Soy un fanático del aprendizaje y de la interacción
-                     con nuevas tecnologías. Siempre me encuentro en constante evolución.
+                    el back-end como en el front-end en individual como grupalmente. Soy un fanático del aprendizaje y de la interacción
+                     con nuevas tecnologías. Siempre me encuentro en constante evolución. Me gusta cocinar, hacer deportes y 
+                     pintar en mi tiempo libre.                     
                 </p>
             </div>
                 <img className='png1' src={comp} alt="" />

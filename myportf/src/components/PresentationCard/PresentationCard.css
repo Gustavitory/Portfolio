@@ -1,6 +1,5 @@
 .Presentation-cont{
-    height: 37em;
-    margin-top: 5em;
+    height: 42em;
     border: 1px solid red;
     background-image: url('https://p4.wallpaperbetter.com/wallpaper/962/673/109/blue-sky-art-painting-art-wallpaper-preview.jpg');
     background-size: 100% 100%;
@@ -9,7 +8,7 @@
 .png1{
     position: absolute;
     scale: 60%;
-    top: 32em;
+    top: 36em;
     left: 29em;
     animation: arrow 3s ease-in-out infinite;
 }
@@ -19,8 +18,9 @@
     box-shadow: .5em .5em .5em .5em rgba(0, 0, 0, 0.582);
     border-radius: .5em;
     position: absolute;
-    top: 47em;
+    top: 53em;
     margin: 5em;
+    margin-top: 0;
     background-color: rgba(255, 255, 255, 0.521);
     animation: arrow 3s ease-in-out infinite;
     border: .2em solid white;

@@ -1,5 +1,6 @@
 .StartCont{
-    margin-top: 7em;
+    padding-top: 7em;
+    margin-bottom: 5em;
     text-align: center;
     display: flex;
     flex-direction: column;

@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 .cont{
   height: 100vh;
   

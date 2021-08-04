@@ -8,7 +8,7 @@ const Goals=()=>{
         <div class="container py-5">
             <div class="row text-center text-white mb-5">
                 <div class="col-lg-8 mx-auto">
-                    <h1 class="display-4">Mis Objetivos</h1>
+                    <h1 class="display-4">Mis Objetivos Actuales</h1>
                 </div>
             </div>
 
