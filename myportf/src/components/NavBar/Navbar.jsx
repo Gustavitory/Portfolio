@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import log from './log.png';
 
 //-----------------Icons-------------------------------------------------
 import {BsFillPersonFill} from 'react-icons/bs'
@@ -12,12 +13,12 @@ import {RiContactsBookFill} from 'react-icons/ri'
 const NavBar=()=>{
     return (
         <div className='nav-container'>
-            <nav class="navbar navbar-expand-sm navbar-light ">
+            <nav class="navbar navbar-expand-sm navbar-light " id='navv'>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#portada">
-                <img src="https://i.imgur.com/PrOFKZD.jpg" id='logo' alt=''/>
+            <a class="navbar-brand" id='log' href="#portada">
+                <img src={log} id='logo' alt=''/>
             </a>
     
         <div class="collapse navbar-collapse" id="opciones">   

@@ -13,21 +13,17 @@
 }
 .nav-itemS{
     text-decoration: none;
-    border: .2em solid #587ec4;
+    border: .2em solid #ffffff73;
     border-radius: .3em;
     transition: 1s;
     width: auto;
+    animation: palp 2s infinite linear;
 }
-.nav-itemS:hover{    
-    transition: .5s;
-    background-color: #587ec4;
-}
+
 #contact{
-    color: #587ec4;
+    color: #ffffff;
 }
-#contact:hover{
-    color: white;
-}
+
 .nav-link{
     display: flex;
     transition: 1s;
@@ -52,3 +48,24 @@
     transition: .5s;
 }
 .navbar-light{color: white;} .navbar-nav{color: white;} .nav-link{color: white;}
+#log{
+    scale: 50%;
+    padding: 0;
+}
+#navv{
+    height: 6em;
+}
+@keyframes palp {
+    0% {
+        /* transform: translate(0px, 50px); */
+        scale: 1;
+        }
+        50% {
+        /* transform: translate(0px, 60px); */
+        scale: 1.2;
+        }
+        100% {
+        /* transform: translate(0px, 50px); */
+        scale: 1;
+        }
+}
