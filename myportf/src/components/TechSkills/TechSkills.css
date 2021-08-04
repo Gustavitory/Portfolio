@@ -34,7 +34,7 @@
     transform: rotateY(32.72deg) translateZ(500px);
 }
 .content-carousel figure:nth-child(3){
-    transform: rotateY(65.44deg) translateZ(600px);
+    transform: rotateY(65.44deg) translateZ(500px);
 }
 .content-carousel figure:nth-child(4){
     transform: rotateY(98.16deg) translateZ(500px);
