@@ -13,19 +13,21 @@
 }
 .nav-itemS{
     text-decoration: none;
-    border: .2em solid rgb(0, 182, 189);
+    border: .2em solid rgb(85, 148, 151);
     border-radius: .3em;
     transition: 1s;
     width: auto;
 }
 .nav-itemS:hover{    
     transition: .5s;
-    scale: 1.2;
     box-shadow: .1em .1em .1em .1em rgb(85, 148, 151);
-
+    background-color: rgba(85, 148, 151, 0.555);
 }
 #contact{
-    color: rgb(0, 182, 189);
+    color: rgb(85, 148, 151);
+}
+#contact:hover{
+    color: white;
 }
 .nav-link{
     display: flex;
@@ -39,7 +41,7 @@
     position: fixed;
     top: 0em;
     width: 100%;
-    z-index: 1;
+    z-index: 401;
 }
 .navbar-brand{
     transition: 1s;

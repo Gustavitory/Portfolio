@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar/Navbar';
 
 //Componentes:
+import NavBar from './components/NavBar/Navbar';
 import PresentationCard from './components/PresentationCard/PresentationCard';
 import Start from './components/Start/Start'
+import Goals from './components/Goals/Goals.jsx';
+import TechSkills from './components/TechSkills/TechSkills';
 //-------------------------------------------------------------------------------------------
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
     <div>
       <NavBar/>
       <Start/>
-      <PresentationCard/>   
+      <PresentationCard/> 
+      <TechSkills/>
+      <Goals/>  
     </div>
   );
 }

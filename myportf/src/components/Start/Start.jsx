@@ -1,10 +1,6 @@
 import React from 'react';
 import './Start.css'
 
-
-
-
-
 const Start= ()=>{
     let saludo='<Gustavo Riera/>'
     return (
