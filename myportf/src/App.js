@@ -8,6 +8,7 @@ import PresentationCard from './components/PresentationCard/PresentationCard';
 import Start from './components/Start/Start'
 import Goals from './components/Goals/Goals.jsx';
 import TechSkills from './components/TechSkills/TechSkills';
+import Projects from './components/Projects/Projects';
 //-------------------------------------------------------------------------------------------
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Fade cascade={true} duration={2500}><section id='presentation'><PresentationCard/></section></Fade>      
       <Fade cascade={true} duration={2500}><section id='tech'><TechSkills/></section></Fade>
       <Fade cascade={true} duration={2500}><section id='goals'><Goals/></section></Fade>
+      <Fade cascade={true} duration={2500}><section id='projects'><Projects/></section></Fade>
       
        
            

@@ -33,7 +33,7 @@ const NavBar=()=>{
                     <a class="nav-link" href="#goals"><RiFocus2Line size='25'/> Objetivos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/"><MdWork size='25'/> Portafolio</a>
+                    <a class="nav-link" href="#projects"><MdWork size='25'/> Portafolio</a>
                 </li>  
                 <li class="nav-itemS" >
                     <a class="nav-link" id='contact' href="/"><RiContactsBookFill size='25'/>Contacto</a>
