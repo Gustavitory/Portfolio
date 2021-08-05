@@ -36,7 +36,7 @@ const NavBar=()=>{
                     <a class="nav-link" href="#projects"><MdWork size='25'/> Portafolio</a>
                 </li>  
                 <li class="nav-itemS" >
-                    <a class="nav-link" id='contact' href="/"><RiContactsBookFill size='25'/>Contacto</a>
+                    <a class="nav-link" id='contact' href="mailto:ggrieraya@gmail.com"><RiContactsBookFill size='25'/>Contacto</a>
                 </li>                  
             </ul>
         </div>

@@ -28,7 +28,7 @@ const Projects=()=>{
                     </p>
                     <div className='links'>
                         <a class="dc" target="_blank" rel="noopener noreferrer" href="https://github.com/Gustavitory/PG-Henry-Ecommerce-Front">Front <AiOutlineGithub size='30'/></a>
-                        <a class="dc" target="_blank" rel="noopener noreferrer" href="https://github.com/Gustavitory/PG-Henry-Ecommerce-Front">Back <AiOutlineGithub size='30'/></a>
+                        <a class="dc" target="_blank" rel="noopener noreferrer" href="https://github.com/Gustavitory/PG-Henry-Ecommerce-Back">Back <AiOutlineGithub size='30'/></a>
                         <a class="dc" target="_blank" rel="noopener noreferrer" href="https://elgramofono.tk/"><GoLinkExternal size='30'/></a>
                     </div>
                 </div>
