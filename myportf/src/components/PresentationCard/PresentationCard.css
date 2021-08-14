@@ -7,9 +7,9 @@
 }
 .png1{
     position: absolute;
-    scale: 45%;
-    top: 36em;
-    left: 29em;
+    width: 40em;
+    top: 42em;
+    left: 40em;
     animation: arrow 3s ease-in-out infinite;
 }
 .text{
