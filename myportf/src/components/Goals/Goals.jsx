@@ -3,6 +3,8 @@ import './Goals.css'
 
 
 const Goals=()=>{
+    let leng="C#"
+    let frame=".net"
     return(
         <div className='all'>
         <div class="container py-5">
@@ -25,21 +27,21 @@ const Goals=()=>{
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h2 class="h5 mb-0">Formarme en JAVA.</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2021</span>
-                            <p class="text-small mt-2 font-weight-light">JAVA es uno de lo lenguajes mas ámplios que existen, logrando manejarlo puedo aumentar mi calidad profesional.</p>
-                            <p class="text-small mt-2 font-weight-light">Al ser un lenguaje de alta complejidad supondrá un gran desafio que afrontare con gusto.</p>
+                            <h2 class="h5 mb-0">Continuar formandome profesionalmente.</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2021</span>
+                            <p class="text-small mt-2 font-weight-light">Las tecnologías estan en constante desarrollo, por ende yo tampoco puedo dejar de formarme.</p>
+                            <p class="text-small mt-2 font-weight-light">Manejar Typescript, React native y next.js son algunos de mis planes a futuro.</p>
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h2 class="h5 mb-0">Formarme en Python.</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2022</span>
-                            <p class="text-small mt-2 font-weight-light">Python es un lenguaje de programación muy conocido y de gran utilidad,
-                            es un primer paso para iniciar mis estudios en ciber seguridad, rama en la cual me especializaré a futuro</p>
+                            <h2 class="h5 mb-0">Formarme en {leng}.</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2022</span>
+                            <p class="text-small mt-2 font-weight-light">{leng} es un lenguaje de programación muy conocido y de gran utilidad,
+                            es un primer paso para iniciar mis estudios en las tecnologías {frame} </p>
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h2 class="h5 mb-0">Especializarme en ciber seguridad.</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2022-2023</span>
-                            <p class="text-small mt-2 font-weight-light">La ciber seguridad es un mundo que me parece muy interesante, tambien es complejo y exigente entrar en el,
-                            creo que con esfuerzo, disciplina y tiempo seré un profesional de alto valor en esta carrera.</p>
+                            <h2 class="h5 mb-0">Especializarme en diseño web.</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2022-2023</span>
+                            <p class="text-small mt-2 font-weight-light">El diseño web seguirá evolucionando, cambiando y mi meta es llegar a ser alguien de reconocimiento
+                                internacional en este gran área de trabajo que disfruto mucho.</p>
                         </li>
                     </ul>
 
